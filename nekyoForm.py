@@ -91,7 +91,7 @@ def run():
         relief=tk.RIDGE,  # 枠線を表示
         bd=2  # 枠線の幅
     )
-    canvas.place(x=370, Y=0)
+    canvas.place(x=370, y=0)
 
     img = tk.PhotoImage(file='img1.gif')
     canvas.create_image(
@@ -176,5 +176,5 @@ def run():
 
     # プログラムの開始
 
-    if __name__ == '__main__':
-        run()
+    "if __name__ == '__main__':"
+run()
